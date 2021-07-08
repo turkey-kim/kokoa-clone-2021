@@ -53,6 +53,7 @@ body {
 #login-form input[type="submit"] {
   cursor: pointer;
   background-color: var(--yellow);
+  border-radius: 5px;
 }
 
 #login-form a {
