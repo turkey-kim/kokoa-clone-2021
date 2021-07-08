@@ -1,34 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="CSS/style.css"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Kokoa Talk</title>
 </head>
 <body>
-    <div id="status-bar">
+    <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
             <i class="fas fa-wifi"></i>
-            
-            <!-- 나중에 서비스 아이콘 삽입-->
         </div>
         <div class="status-bar__column">
-            <span>18:43</span>
+            <span>18:49</span>
         </div>
         <div class="status-bar__column">
             <span>11%</span>
             <i class="fas fa-battery-full"></i>
             <i class="fas fa-bolt"></i>
-            <!-- 베터리 아이콘 , 충전중 아이콘 삽입-->
         </div>
         
     </div>
 
     <header class="welcome-header">
         <h1 class="welcome-header__title">Welcome to KoKoa Clone</h1>
-        <p calss="welcome-header__text">If you have a Kokoa Account, log in with your email or phone number.</p>
+        <p class="welcome-header__text">If you have a Kokoa Account,<br/>log in with your email or phone number.</p>
     </header>
 
     <form id="login-form">
@@ -36,10 +34,9 @@
         <input type="password" placeholder="Password"/>
         <input type="submit" value="Log In"/>
         <input type="submit" value="Sign Up"/>
+        <a href="#">Find Kokoa Account or Password</a>
     </form>
 
-    <a href="#">Find Kokoa Account or Password</a>
-    
     <script src="http://kit.fontawesome.com/6478f529f2.js"
     crossarigin="anonymous"></script>
 </body>

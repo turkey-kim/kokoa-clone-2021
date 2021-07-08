@@ -1,0 +1,25 @@
+.status-bar {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-bar__column {
+  display: flex;
+  margin: 0px 5px;
+  font-size: 15px;
+}
+
+.status-bar__column:nth-child(2) {
+  margin-right: 35px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.status-bar__column .fa-wifi {
+  margin-left: 3px;
+}
+
+.status-bar__column .fa-battery-full {
+  margin: 0px 5px;
+}
